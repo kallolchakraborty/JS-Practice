@@ -23,4 +23,7 @@ console.log("Discount Pecentage:", ((number2 - number1)/number2) * 100 );
 // rounding up
 console.log("Rounded Discount Pecentage:", Math.round(((number2 - number1)/number2) * 100));
 
+// ternery operator
+var authenticated = false;
+authenticated ? console.log("LogOut") : console.log("LogIn");
 
