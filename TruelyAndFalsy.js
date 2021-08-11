@@ -1,7 +1,7 @@
 /*---------------------------------------------------------
     author: kallol chakraborty
     program no: 005
-    program description: Conditional 
+    program description: Truely & Falsy 
     time complexity: O(1)
     space complexity: O(1)
     date: 05/08/2021
@@ -20,14 +20,14 @@ if (variable1) {
 }
 
 // output
-// coercion : loose comparison
+// coercion : loose comparison: Only value
 var variable2 = "2";
 if (2 == variable2) {
     console.log("Condition is True");
 }
 
 // no output
-// strict comparison
+// strict comparison: checking type and the value
 var variable2 = "2";
 if (2 === variable2) {
     console.log("Condition is True");

@@ -1,0 +1,19 @@
+window is the global context when we use javascript in browser. All the things are registered here.
+As a result of this function can be called before and the definition can be declared at the later part.
+
+If the window keyword in used in VSCode it will throw error as it is executed by the Node.
+
+2 types of contexts are there: Global & Execution context.
+
+Execution context has few major things:
+1.  Variable Object
+2.  Scope Chain
+3.  This keyword
+
+function declaration are scanned & made available.
+variables declaration are scanned and made undefined.
+
+when variables are used to print without assigning the value, it shows undefined. If the value is 
+not assigned later on then it throws an error.
+
+if a new context is created, it does not dig down to get the value rather it takes recent context.
