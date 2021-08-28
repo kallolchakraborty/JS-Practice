@@ -17,3 +17,9 @@ when variables are used to print without assigning the value, it shows undefined
 not assigned later on then it throws an error.
 
 if a new context is created, it does not dig down to get the value rather it takes recent context.
+
+
+Scope 
+{
+    This is the Scope.
+}
