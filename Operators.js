@@ -4,7 +4,7 @@
     program description: Operators
     time complexity: O(1)
     space complexity: O(1)
-    date: 04/08/2021
+    date: 11/11/2021
 ----------------------------------------------------------*/
 
 var number1 = 6;
@@ -64,3 +64,35 @@ console.log('Logical OR output :', true || false);
 points = 90;
 type = points > !100 ? 'Silver' : 'Gold';
 console.log(`The customer type is : ${type}`);
+
+//Anything that is not Falsy -> Truthy
+console.log(false || 1);
+
+console.log(false || 'Kallol');
+
+//Short-Circuiting : after the 2nd Operand, all the other operands are omitted
+console.log(false || 1 || 2);
+
+let userColor = undefined;
+let defaultColor = 'Red';
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor);
+
+//Bitwise Operators
+// 1 = 00000001 (8 bit)
+// 2 = 00000010
+
+//Bitwise OR
+console.log(1 | 44);
+
+//Bitwise AND
+console.log(1 & 44);
+
+//Application: Permission Systems
+
+
+
+
+
+

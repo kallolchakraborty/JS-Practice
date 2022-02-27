@@ -29,3 +29,4 @@ console.log(newObject01);
 
 // printing in table
 console.table(newObject01);
+
