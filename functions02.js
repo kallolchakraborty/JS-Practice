@@ -24,3 +24,8 @@ console.log(`The Square is ${number}`);
 
 //Alternatively
 console.log(square(6));
+
+number = 0;
+//Function expression
+let f = (number) => (number * number);
+console.log(f(3));
